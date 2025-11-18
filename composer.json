@@ -57,8 +57,7 @@
         "ratchet/pawl": "^0.3.5"
     },
     "suggest": {
-        "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown.",
-        "doctrine/dbal": "Required to run database migrations (^2.9|^3.0)."
+        "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown."
     },
     "autoload": {
         "psr-4": {
