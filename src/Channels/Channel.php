@@ -29,6 +29,8 @@ class Channel
      */
     protected $connections = [];
 
+    public $channelManager;
+
     /**
      * Create a new instance.
      *
