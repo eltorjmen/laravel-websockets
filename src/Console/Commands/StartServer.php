@@ -52,6 +52,8 @@ class StartServer extends Command
      */
     public $server;
 
+    public $lastRestart = null;
+
     /**
      * Initialize the command.
      *
