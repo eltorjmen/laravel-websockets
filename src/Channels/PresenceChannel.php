@@ -111,7 +111,7 @@ class PresenceChannel extends PrivateChannel
         return $this->channelManager
             ->getChannelMember($connection, $this->getName())
             ->then(function ($user) {
-                return @json_decode($user);
+                return $user ? json_decode($user) : null;
             })
             ->then(function ($user) use ($connection) {
                 if (! $user) {
