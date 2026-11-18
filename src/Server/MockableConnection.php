@@ -7,6 +7,10 @@ use stdClass;
 
 class MockableConnection implements ConnectionInterface
 {
+
+    public string $socketId;
+    
+    public mixed $app;
     /**
      * Create a new Mockable connection.
      *
